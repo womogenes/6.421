@@ -1,0 +1,13 @@
+{
+    "tests": [
+        {
+            "name": "Testing the normal vectors",
+            "score": 4,
+            "max_score": 4,
+            "status": "passed"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "0.34",
+    "score": 4
+}
