@@ -1,0 +1,66 @@
+<sdf xmlns:drake="drake.mit.edu" version="1.7">
+  <model name="F">
+    <link name="F_body_link">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <mass>0.1</mass>
+        <pose>0.07918 0.15076 0.03500 0 0 0</pose>
+        <inertia>
+          <ixx>5.50981e-04</ixx>
+          <ixy>-1.10361e-04</ixy>
+          <ixz>-4.20069e-20</ixz>
+          <iyy>2.00990e-04</iyy>
+          <iyz>8.40138e-20</iyz>
+          <izz>6.70304e-04</izz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>F.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="collision_000">
+        <geometry>
+          <mesh>
+            <uri>F_parts/convex_piece_000.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+          <drake:mu_dynamic>1.000</drake:mu_dynamic>
+          <drake:mu_static>1.170</drake:mu_static>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_001">
+        <geometry>
+          <mesh>
+            <uri>F_parts/convex_piece_001.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+          <drake:mu_dynamic>1.000</drake:mu_dynamic>
+          <drake:mu_static>1.170</drake:mu_static>
+        </drake:proximity_properties>
+      </collision>
+      <collision name="collision_002">
+        <geometry>
+          <mesh>
+            <uri>F_parts/convex_piece_002.obj</uri>
+            <drake:declare_convex/>
+          </mesh>
+        </geometry>
+        <drake:proximity_properties>
+          <drake:rigid_hydroelastic/>
+          <drake:mu_dynamic>1.000</drake:mu_dynamic>
+          <drake:mu_static>1.170</drake:mu_static>
+        </drake:proximity_properties>
+      </collision>
+    </link>
+  </model>
+</sdf>
