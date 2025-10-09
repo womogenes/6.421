@@ -1,28 +1,13 @@
 {
     "tests": [
         {
-            "name": "test_path_pick (manipulation.exercises.trajectories.test_plan_place_initials.TestRRT_Connect_initials.test_path_pick)",
-            "score": 3,
-            "max_score": 3,
-            "status": "passed",
-            "output": "run 0 fails to find a solution\nrun 1 fails to find a solution\nrun 2 found a solution!\n"
-        },
-        {
-            "name": "test_path_place (manipulation.exercises.trajectories.test_plan_place_initials.TestRRT_Connect_initials.test_path_place)",
-            "score": 6,
-            "max_score": 6,
-            "status": "passed",
-            "output": "run 0 found a solution!\n"
-        },
-        {
-            "name": "test_path_reset (manipulation.exercises.trajectories.test_plan_place_initials.TestRRT_Connect_initials.test_path_reset)",
-            "score": 3,
-            "max_score": 3,
-            "status": "passed",
-            "output": "run 0 found a solution!\n"
+            "name": "Test solve_ik_for_pose",
+            "score": 5,
+            "max_score": 5,
+            "status": "passed"
         }
     ],
     "leaderboard": [],
-    "execution_time": "12.71",
-    "score": 12
+    "execution_time": "0.02",
+    "score": 5
 }
