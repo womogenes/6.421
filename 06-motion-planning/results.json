@@ -1,14 +1,28 @@
 {
     "tests": [
         {
-            "name": "Test RRT Planner",
-            "score": 0.0,
-            "max_score": 5,
-            "status": "failed",
-            "output": "Constructed problem object\nStarted to solve the problem using RRT planner ...\nrun 1 found a solution\n\nTest Failed: False is not true : please use tuple to store configurations.The computed path should be a list of tuples\n"
+            "name": "test_path_pick (manipulation.exercises.trajectories.test_plan_place_initials.TestRRT_Connect_initials.test_path_pick)",
+            "score": 3,
+            "max_score": 3,
+            "status": "passed",
+            "output": "run 0 fails to find a solution\nrun 1 fails to find a solution\nrun 2 found a solution!\n"
+        },
+        {
+            "name": "test_path_place (manipulation.exercises.trajectories.test_plan_place_initials.TestRRT_Connect_initials.test_path_place)",
+            "score": 6,
+            "max_score": 6,
+            "status": "passed",
+            "output": "run 0 found a solution!\n"
+        },
+        {
+            "name": "test_path_reset (manipulation.exercises.trajectories.test_plan_place_initials.TestRRT_Connect_initials.test_path_reset)",
+            "score": 3,
+            "max_score": 3,
+            "status": "passed",
+            "output": "run 0 found a solution!\n"
         }
     ],
     "leaderboard": [],
-    "execution_time": "3.14",
-    "score": 0.0
+    "execution_time": "12.71",
+    "score": 12
 }
