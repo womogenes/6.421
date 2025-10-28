@@ -1,13 +1,14 @@
 {
     "tests": [
         {
-            "name": "Test solve_ik_for_pose",
-            "score": 5,
-            "max_score": 5,
-            "status": "passed"
+            "name": "test_shortcut (manipulation.exercises.trajectories.test_plan_place_initials.TestShortcut.test_shortcut)",
+            "score": 10,
+            "max_score": 10,
+            "status": "passed",
+            "output": "Note: this test does not explicitly verify a shorter path length\nrun 0 found a solution in RRT-Connect!\n\n All Shortcut tests passed!!\n"
         }
     ],
     "leaderboard": [],
-    "execution_time": "0.02",
-    "score": 5
+    "execution_time": "1.47",
+    "score": 10
 }
